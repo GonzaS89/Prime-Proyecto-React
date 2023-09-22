@@ -1,3 +1,36 @@
 .testimonio-contenedor {
-    
+    height: 300px;
+    width: 75%;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.603);
+}
+
+.testimonio-imagen{
+    height: 100%;
+    width: auto;
+}
+
+.testimonio-texto{
+    background-color: rgba(255, 0, 0, 0.116);
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.texto-nombre{
+    margin-bottom: 5px;
+}
+.texto-cargo{
+    margin-top: 10px;
+}
+
+.texto-cargo, .texto-nombre{
+    text-transform: uppercase;
+}
+
+.texto-testimonio{
+    margin-top: 35px;
+    text-align: justify;
+    font-size: 16px;
 }

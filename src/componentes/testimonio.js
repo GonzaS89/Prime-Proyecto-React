@@ -1,4 +1,5 @@
 import React from 'react';
+import '../hojas-de-estilo/testimonio.css'
 
 export function Testimonio(props) {
     return(
@@ -8,8 +9,8 @@ export function Testimonio(props) {
             src={require(`../imagenes/${props.imagen}.jpg`)} 
             alt = 'Foto'/>
             <div className='testimonio-texto'>
-                <p className='texto-nombre'>{props.nombre} de {props.pais} </p>
-                <p className='texto-cargo'>{props.cargo} en {props.empresa} </p>
+                <p className='texto-nombre'><strong>{props.nombre}</strong> de {props.pais} </p>
+                <p className='texto-cargo'><strong>{props.cargo}</strong> en <strong>{props.empresa}</strong> </p>
                 <p className='texto-testimonio'>{props.testimonio} </p>
             </div>
         </div>
